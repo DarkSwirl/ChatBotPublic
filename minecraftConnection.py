@@ -13,9 +13,8 @@ class Connection:
         player_ID = message.entityId
         message = message.message
         if message.lower() == "sven stop":
-            mc.setBlock(9, -66, 8, 30)  # off
-            mc.setBlock(9, -66, 8, 0)
-            Connection.start()
+            mc.setBlock(-1, -68, 0, 30)  # off
+            mc.setBlock(-1, -68, 0, 0)
             return
 
         if 'Sven' in message:
@@ -29,9 +28,8 @@ class Connection:
             for posts in mc.events.pollChatPosts():
                 if posts.message.lower() == "sven start":
                     start_up = True
-                    mc.setBlock(7, -66, 8, 30)  # on turns on bossbar
-                    mc.setBlock(7, -66, 8, 0)
-
+                    mc.setBlock(-3, -68, 0, 30)  # on
+                    mc.setBlock(-3, -68, 0, 0)
 
 connection = Connection()
 connection.start()
