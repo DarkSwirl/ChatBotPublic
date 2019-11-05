@@ -15,6 +15,7 @@ class Connection:
         if message.lower() == "sven stop":
             mc.setBlock(-1, -68, 0, 30)  # off
             mc.setBlock(-1, -68, 0, 0)
+            connection.start()
             return
 
         if 'Sven' in message:
