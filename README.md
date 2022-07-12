@@ -1,3 +1,6 @@
+This Project was made in collaboration with git users:  https://github.com/baranbbr, https://github.com/Vendari, https://github.com/bochnotomas
+An example video of the chatbot in action can be found at: https://youtu.be/YGjHxd8RXtc
+
 Intro:
 This project was a group university project which made use of popular programs such as Git and Pycharm to develop a working chatbot in which we named Sven. Based around the game Minecraft, this chatbot enables responses to questions about item crafting recipes, their descriptions and other standard chat responses all incorporated within both discord and the Minecraft chat itself, hosted on a VPS server. The project as a whole was meant to help re-introduce Minecraft players who had played the game in the past but however, after the numerous complex updates had fallen out of touch with key game mechanics, crafting recipes and block uses.
 	
